@@ -582,7 +582,7 @@ a.Huma_anchor {
 .productthumb {
 	width: 100%;
 	max-width: 400px;
-	height: 380px;
+	height: auto;
 	float: none;
 	margin: 10px auto;
 	background: #EEE none repeat scroll 0% 0%;

@@ -1725,7 +1725,7 @@ input[name="oldlist"] {
 .productthumb {
 	margin: 10px 10px 10px 0px;
 	min-height: 360px;
-	height: auto;
+/*	height: auto;*/
 }
 a.case-button {
 	display: block;
