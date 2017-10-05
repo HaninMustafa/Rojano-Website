@@ -132,8 +132,8 @@
 	width: 70px;
 	left: 20%;
 }
-	.Bin-button {
-	width: 40%; 
+.Bin-button {
+	width: 40%;
 	margin: 0px;
 }
 }
@@ -527,7 +527,7 @@ select#SelectDateID2 {
 	max-height: 215px;
 	overflow: hidden;
 }
-	.meal_kit_sdesc {
+.meal_kit_sdesc {
 	font-size: 16px;
 	padding: 15px 15px 5px 15px;
 	text-align: center;
@@ -536,7 +536,6 @@ select#SelectDateID2 {
 	font-size: 20px !important;
 	font-weight: 310;
 }
-
 .mkth img {
 	width: 100%;
 	height: auto;
@@ -549,18 +548,16 @@ select#SelectDateID2 {
 	font-size: 10px;
 	padding: 5px 0px;
 }
-	.meal_kit_thm {
-    width: 100%;
-    background-color: #fff;
-    padding: 0px;
-    box-shadow: 0 1px 3px #dadcdd;
-    border: 1px solid #e6e6e6;
-    margin: 10px auto;
-    min-height: 380px;
+.meal_kit_thm {
+	width: 100%;
+	background-color: #fff;
+	padding: 0px;
+	box-shadow: 0 1px 3px #dadcdd;
+	border: 1px solid #e6e6e6;
+	margin: 10px auto;
+	min-height: 380px;
 }
 }
-
-
 
 /*  larger tablet size  **************************************************************** */
 @media (min-width: 841px) and (max-width: 1074px) {
@@ -1601,7 +1598,7 @@ input[name="oldlist"] {
 	margin: 10px auto;
 	min-height: 310px;
 }
-	.meal_kit_sdesc {
+.meal_kit_sdesc {
 	font-size: 16px;
 	padding: 15px 15px 5px 15px;
 	text-align: center;
@@ -1626,11 +1623,9 @@ input[name="oldlist"] {
 	font-size: 10px;
 	padding: 5px 0px;
 }
-	.mk_hdr_in_text {
-    padding-right: 4rem;
-	}
-	
-	
+.mk_hdr_in_text {
+	padding-right: 4rem;
+}
 }
 
 /*  ipad and a bit bigger ****************************************************************/
@@ -2814,16 +2809,15 @@ input[name="oldlist"] {
 	padding: 5px 0px;
 }
 .mk_hdr_in_text {
-    padding-right: 4rem;
-	}
-#col-main-notlogged .mylact {
-    float: right;
-    width: 300px;
-    margin: 0px 5% 0px 0px;
-    padding: 10px 0px;
-    text-align: right;
+	padding-right: 4rem;
 }
-
+#col-main-notlogged .mylact {
+	float: right;
+	width: 300px;
+	margin: 0px 5% 0px 0px;
+	padding: 10px 0px;
+	text-align: right;
+}
 }
 
 /*  iphone ********************************************************************************/
@@ -2995,8 +2989,10 @@ ul.wpnavbr {
 }
 .productthumnail {
 	max-width: 100%;
-	/* max-height: 100%; */
+	max-height: 100%;
 	width: 100%;
+	height: 100%;
+	object-fit: cover
 }
 #the-gift-page .productthumb {
 	height: 320px;
@@ -3647,7 +3643,6 @@ a:link.mlbutn {
 	margin: 10px auto;
 	min-height: 300px;
 }
-
 .mkth img {
 	height: auto;
 	max-width: 100%;
@@ -3665,24 +3660,18 @@ a:link.mlbutn {
 	position: relative;
 }
 .mk_hdr_in_text {
-    padding-right: 0;
-	}
-	
-	.mk-in .kit-sub{
-		right: 90px;
-	}
-	.per_serving_line{
-		flex-direction: column;
-	}
-
-		.per_serving_info{
-		width: 94%;
-		font-size: 14px;
-	}
-	
-	
-
-	
+	padding-right: 0;
+}
+.mk-in .kit-sub {
+	right: 90px;
+}
+.per_serving_line {
+	flex-direction: column;
+}
+.per_serving_info {
+	width: 94%;
+	font-size: 14px;
+}
 /*
 	div#window-1009.x-window.x-layer.x-window-default, 
 	div#ext-gen1026.x-css-shadow{
@@ -3694,9 +3683,10 @@ a:link.mlbutn {
 
 
 }
-@media (max-width: 767px) and (min-width: 10px) and (orientation: landscape){
-	.meal_kit_thm{
-		min-height: 425px !important;
+
+@media (max-width: 767px) and (min-width: 10px) and (orientation: landscape) {
+.meal_kit_thm {
+	min-height: 425px !important;
 }
 }
 /*  iphone 5 ********************************************************************************/
@@ -3715,7 +3705,6 @@ a:link.mlbutn {
 #Box_Mobile .tab-pane, #Box_Mobile td {
 	font-size: 11px;
 }
-	.mk_hdr_in_text {
-    padding-right: 0;
+.mk_hdr_in_text {
+	padding-right: 0;
 }
-	
