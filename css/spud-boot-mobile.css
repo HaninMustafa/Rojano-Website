@@ -641,8 +641,7 @@ div, p, td {
 }
 .productthumb {
 	margin: 10px 10px 10px 0px;
-	min-height: 330px;
-	height: auto;
+	min-height: 330px;/*	height: auto;*/
 }
 a.case-button {
 	display: block;
@@ -1375,7 +1374,7 @@ div.speech:after {
 	color: #333;
 	line-height: 110%;
 	text-overflow: ellipsis;
-	overflow: hidden;
+	/*	overflow: hidden;*/
 	/* height: 37px; */
 	font-family: 'Open Sans', "Franklin Gothic Bold", "Arial Black", sans-serif;
 	font-weight: 700;
@@ -1724,8 +1723,7 @@ input[name="oldlist"] {
 }
 .productthumb {
 	margin: 10px 10px 10px 0px;
-	min-height: 360px;
-/*	height: auto;*/
+	min-height: 360px;/*	height: auto;*/
 }
 a.case-button {
 	display: block;
@@ -2993,6 +2991,21 @@ ul.wpnavbr {
 	width: 100%;
 	height: 100%;
 	object-fit: cover
+}
+#scrolling .productthumnail {
+	height: 88px;
+}
+#scrolling .m_box .m_prodnamet {
+	height: 65px;
+}
+#scrolling .m_box {
+	min-height: 270px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#scrolling .m_img {
+	margin: 0px auto;
 }
 #the-gift-page .productthumb {
 	height: 320px;
