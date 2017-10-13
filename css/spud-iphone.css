@@ -16,10 +16,6 @@ h3 {
 	font-size: 20px;
 }
 h4 {
-	
-	
-	
-	
 	font-size: 16px;
 }
 h1.list-sectiontitle {
@@ -593,7 +589,7 @@ a.Huma_anchor {
 	z-index: 1;
 }
 .imagewrap {
-	min-height: 210px;
+	min-height: 198px;
 }
 .nosto-m .imagewrap {
 	min-height: 100px;
@@ -623,8 +619,68 @@ a.Huma_anchor {
 .giftgive {
 	color: #fff;
 	font-size: 36px;
+	font-weight: 600;
 	letter-spacing: -1px;
 	margin: 10px 0px;
+	text-align: center;
+	width: 100%;
+}
+#gift-checkout {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 100%!important;
+	margin: 0!important;
+	padding: 20px 0; /*EvR 13-10-2017*/
+}
+#gift-checkout .tab-content {
+	padding: 0;
+	background-color: white;
+	border: 0!important;
+	width: 95%; /*EvR 13-10-2017*/
+}
+#gift-checkout .tab-content #home {
+	background-color: #eee;
+	padding: 10px; /*EvR 13-10-2017*/
+	border-radius: 30px;
+	height: auto; /*EvR 13-10-2017*/
+	top: -51px;
+	position: relative;
+}
+#gift-checkout .form-tabs a {
+    display: block!important;
+    min-height: 120px; /*EvR 13-10-2017*/
+}
+#gift-checkout #menu1 {
+    background-color: #eee;
+    padding: 20px; /*EvR 13-10-2017*/
+    font-size: 15px; /*EvR 13-10-2017*/
+    position: relative;
+    top: -51px;
+    border-radius: 30px;
+}
+#gift-checkout .form-tabs li {
+    width: 50%;
+    font-size: 12px; /*EvR 13-10-2017*/
+    font-weight: 600;
+    text-align: center;
+}
+#gift-checkout h2 {
+    align-self: flex-start;
+    width: auto; /*EvR 13-10-2017*/
+    margin: 0px auto!important;
+    padding: 10px 20px 30px;
+}
+#gift-checkout .formlabel {
+	font-size: 11px;  /*EvR 13-10-2017*/
+	width: 100%;
+}
+#gift-checkout .largetext {
+	font-size: 18px;
+}
+#gift-checkout select {
+	font-size: 12px;
 }
 .right-ops .nav>li>a {
 	position: relative;
@@ -1447,9 +1503,8 @@ a:link.quick_btn {
 	display: block;
 }
 #newlistmaker {
-	padding:5px 0px;
+	padding: 5px 0px;
 }
-
 .mk-in .kit-sub {
 	right: 0;
 }
@@ -1598,9 +1653,9 @@ div.kitdetails-chk .quant-column_h {
 	display: block;
 	padding: 5px 10px;
 }
-	.ftr_tst .wpex-newsletter-widget button{
-		width: 100%;
-	}
+.ftr_tst .wpex-newsletter-widget button {
+	width: 100%;
+}
 }
 .mk_ingrts .proddetailscolumn {
 	width: 50%;
@@ -1609,7 +1664,6 @@ div.kitdetails-chk .quant-column_h {
 	position: relative;
 	float: left;
 }
-
 
 /*  mobile HUMA EXCEPTIONS ***********************************************************************************/
 @media all and (orientation:portrait) {
@@ -1887,5 +1941,4 @@ li.col_menu_mobile {
  .mk_hdr_in_text {
  padding-right: 0 !important;
 }
-
 }

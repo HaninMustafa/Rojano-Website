@@ -2,10 +2,22 @@
 
 /*  Mobile options CSS Document */
 
-
+/*  super largest size  **************************************************************** */
+@media (min-width: 1260px) {
+.flex-pthumb {
+ width: calc(60vw * 0.3);
+	min-width: 295px;
+	max-width: 300px;
+}
+}
 
 /*  largest size  **************************************************************** */
-@media (min-width: 1175px) {
+@media (min-width: 1175px) and (max-width: 1259px) {
+.flex-pthumb {
+ width: calc(60vw * 0.3);
+	min-width: 265px;
+	max-width: 300px;
+}
 #middletopnav {
 	margin-left: 5px;
 	min-width: 430px;
@@ -314,7 +326,7 @@
 	font-size: 70px;
 }
 #gift-back {
-	height: 200px;
+	height: auto;
 }
 select#SelectDateID2 {
 	font-size: 14px;
@@ -496,7 +508,7 @@ select#SelectDateID2 {
 	width: 75px;
 }
 .nosto-prods .prodnamet {
-	height: 30px;
+	height: 62px; /*EvR 10-11-2017 */
 }
 .wsmenu-list > li > a {
 	padding-left: 8px !important;
@@ -556,6 +568,32 @@ select#SelectDateID2 {
 	border: 1px solid #e6e6e6;
 	margin: 10px auto;
 	min-height: 380px;
+}
+.catalogue_header {
+	font-size: 70px;
+}
+.catalogue_side_header {
+	font-size: 25px;
+}
+.catalogue_side_link {
+	font-size: 18px;
+	padding: 10px 10px;
+	margin-left: -10px;
+}
+.flex-pthumb {
+ width: calc(60vw * 0.3) !important;
+	min-width: 230px;
+	max-width: 300px;
+}
+}
+
+/*  FLEX med-small ****************************************************************/
+@media (min-width: 975px) and (max-width: 1074px) {
+.flex-pthumb {
+ width: calc(60vw * 0.3) !important;
+	min-width: 200px;
+	max-width: 300px;
+	min-heigth: 320px;
 }
 }
 
@@ -1483,7 +1521,7 @@ select[multiple], select[size] {
 	width: 75px;
 }
 .nosto-prods .prodnamet {
-	height: 32px;
+	height: 53px; /*EvR 10-11-2017 */
 }
 .nostobox .col-item {
 	height: 245px;
@@ -1624,6 +1662,33 @@ input[name="oldlist"] {
 }
 .mk_hdr_in_text {
 	padding-right: 4rem;
+}
+/*gift basket CSS done by Hanin*/
+#gift-checkout #sendto {
+	padding: 20px 40px 20px 0;
+}
+#gift-checkout #gift-cart {
+	width: 42%;
+}
+.catalogue_header {
+	font-size: 50px;
+}
+.catalogue_side_header {
+	font-size: 22px;
+	width: 360px;
+	margin-bottom: 25px;
+}
+.catalogue_side_link {
+	font-size: 17px;
+	padding: 10px 30px;
+	margin-left: -30px;
+	width: 350px;
+}
+.flex-pthumb {
+ width: calc(60vw * 0.3) !important;
+	min-width: 175px;
+	max-width: 300px;
+	min-heigth: 320px;
 }
 }
 
@@ -2499,24 +2564,15 @@ div.speech:after {
 	white-space: nowrap;
 }
 .nostobox .prodnamet {
+	overflow: hidden;
+	font-family: 'Open Sans', "Franklin Gothic Bold", "Arial Black", sans-serif;
 	font-size: 12px;
 	color: #333;
 	line-height: 110%;
 	text-overflow: ellipsis;
-	overflow: hidden;
-	/* height: 37px; */
-	font-family: 'Open Sans', "Franklin Gothic Bold", "Arial Black", sans-serif;
 	font-weight: 700;
-}
-.nostobox .prodnamet {
-	font-size: 12px;
-	color: #333;
-	line-height: 110%;
-	text-overflow: ellipsis;
-	overflow: hidden;
-	/* height: 37px; */
-	font-family: 'Open Sans', "Franklin Gothic Bold", "Arial Black", sans-serif;
-	font-weight: 700;
+	height: 53px; /*EvR 10-11-2017 */
+	margin: 0px 0px 5px 0px; /*EvR 10-11-2017 */
 }
 .nosto-prods .thepricet {
 	font-size: 14px;
@@ -2558,9 +2614,6 @@ div.speech:after {
 	border-bottom-right-radius: 0;
 	line-height: 27px;
 	width: 75px;
-}
-.nosto-prods .prodnamet {
-	height: 39px;
 }
 .nostobox .col-item {
 	height: 250px;
@@ -2815,6 +2868,65 @@ input[name="oldlist"] {
 	margin: 0px 5% 0px 0px;
 	padding: 10px 0px;
 	text-align: right;
+}
+/*gift basket CSS done by Hanin*/	
+#gift-checkout #sendto {
+	padding: 20px 40px 20px 0;
+}
+#gift-checkout #gift-cart {
+	width: 42%;
+}
+.catalogue_side_link {
+	font-size: 16px;
+	padding: 10px 10px;
+	width: 300px;
+	margin-left: -10px;
+}
+.catalogue_header {
+	font-size: 50px;
+}
+.catalogue_side_header {
+	font-size: 21px;
+	width: 280px;
+	margin-bottom: 16px;
+}
+#gift-back {
+	height: auto;
+}
+.flex-pthumb {
+ width: calc(60vw * 0.5) !important;
+	min-width: 230px;
+	max-width: 300px;
+}
+}
+.inline-note {
+	padding: 10px;
+	font-size: 15px;
+	text-align: center;
+	margin: 0px auto;
+	background-color: #fed065;
+}
+.rednote {
+	line-height: 120%;
+	display: block;
+	font-weight: 600;
+	padding: 0px 5px 10px 5px;
+}
+.rednote-c {
+	color: #b33837;
+}
+.bmsm {
+	display: block;
+	color: #fff !important;
+	padding: 3px;
+	text-align: center;
+	font-size: 11px;
+	background-color: #79c696;
+	margin: 0px auto 5px auto;
+}
+.bmsm-det {
+	font-size: 11px;
+	text-align: center;
 }
 }
 
@@ -3693,8 +3805,48 @@ a:link.mlbutn {
     transform: translate(-50%, -50%)!important;
 	}
 */
-
-
+	
+/*gift basket CSS done by Hanin*/
+#gift-checkout #gift-cart {
+	width: 100%;
+}
+#gift-checkout .tab-content #home {
+	height: auto;
+}
+#gift-checkout #sendto {
+	padding: 20px 0!important;
+}
+#gift-checkout .form-tabs a {
+	display: block!important;
+}
+#gift-checkout #menu1 strong {
+	font-size: 21px!important;
+}
+#gift-checkout .gift_order_btn {
+	width: 100%;
+}
+#gift-checkout #home .sm_red_cart {
+	background-image: url(../gifs/smcart.png)!important;
+}
+#gift-back {
+	height: auto!important;
+}
+.catalogue_header {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 38px;
+}
+.catalogue_side_header {
+	margin: 16px auto;
+	font-size: 17px;
+	text-align: center;
+}
+.catalogue_side_link {
+	margin: 20px auto!important;
+	font-size: 13px;
+	padding: 10px 10px;
+	width: 255px;
+}
 }
 
 @media (max-width: 767px) and (min-width: 10px) and (orientation: landscape) {
