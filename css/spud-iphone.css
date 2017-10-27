@@ -67,6 +67,14 @@ a.checkoubutton-l:hover, a.checkoubutton-l:active, input.checkoubutton-l:hover {
 	z-index: 9998;
 	color: #FFF;
 }
+
+.x-window-fix-top {
+	margin: 0px auto !important;
+	position: relative !important;
+	left: 0px !important;
+	top: -1600px !important;
+}
+
 #menuholder {
 	background-color: transparent !important;
 	width: 100%;
