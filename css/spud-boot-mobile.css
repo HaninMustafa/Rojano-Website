@@ -3186,7 +3186,7 @@ input[name="oldlist"] {
 }
 }
 
-/*  iphone ********************************************************************************/
+/*  iphone ************* This media is FULL do not add more lines to it *****************************************************/
 @media (min-width: 10px) and (max-width: 767px) {
 #site-header { /*  hides top desktop header *****/
     padding: 0  !important;
@@ -4225,6 +4225,23 @@ a:link.mlbutn {
 .raf_pop_container .exite_icon {
     right: -16px;
 }
+	/* my address book page */
+.address_info_container {
+	justify-content: center;
+}
+.my-address-book .address_info {
+	width: 100%;
+	padding: 10px 10%;
+}
+.my-address-book .form-element {
+	text-align: center;
+}
+#customer-menu {
+	display: none; /*should be deleted !!!!!!!!!!!!*/
+}
+#addnewaddress select {
+	width: 100%!important;
+}
 }
 
 /* landscape mobile ********************************************************************************/ 
@@ -4241,13 +4258,12 @@ a:link.mlbutn {
     display: block;
     padding: 5px 10px;
 }
-#Box_Mobile .nav > li > a {  
+#Box_Mobile .nav > li > a {
     position: relative;
     display: block;
     padding: 5px 5px;
     font-size: 11px;
 }
-	
 #Box_Mobile .tab-pane, #Box_Mobile td {
     font-size: 11px;
 }
